@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Function library example</title>
+  <style>
+  </style>
+</head>
+<body>
+
+  
+  <p></p>
+
+  <script>
+
+
+    function add_seven(number) {
+        console.log(number+7);
+    }
+
+    function multiply(num1, num2) {
+        console.log(num1*num2);
+    }
+
+    function capitalize(string) {       
+        
+        
+        firstLetter = string.charAt(0).toUpperCase();
+        string = string.slice(1).toLowerCase();
+        string = firstLetter + string;
+        console.log(string);
+    }
+
+    function lastLetter(string) {
+      string = string.slice(-1);
+      console.log(string);
+    }
+
+
+    add_seven(6);
+    multiply(3,2);
+    capitalize("BAasdasdadhellOsadfEFasdfGRafdgbADFBADSfgASGOO");
+    lastLetter("abcd");
+
+
+  </script>
+</body>
+</html>
